@@ -50,5 +50,8 @@ nav .nav-section .menu-icon{
 
 nav .nav-section img{
     border-radius: 100px;
-    
+}
+main{
+    text-align: center;
+    margin-top: 120px;
 }
