@@ -92,6 +92,7 @@ main .main-input input{
     border: 0;
     outline: none;
     margin-left: 5px;
+    font-size: 1.5rem;
 }
 main .main-input .search-icon{
     background-image: url('https://pngimage.net/wp-content/uploads/2018/06/lupa-de-pesquisa-png-6.png');
