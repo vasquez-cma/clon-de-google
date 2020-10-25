@@ -53,7 +53,7 @@ nav .nav-section img{
 }
 main{
     text-align: center;
-    margin-top: 120px;
+    margin-top: 110px;
 }
 main .main-logo{
     width: 580px;
@@ -130,4 +130,37 @@ main .main-buttons{
 .main-buttons .buttons button:hover{
     box-shadow: 0 1px 3px 0;
     color: #727272;
+    
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #f0f0f0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+footer .list-left{
+    display: flex;
+    list-style: none;
+    font-size: 1.4rem;
+    padding: 0;
+    margin-left: 20px;
+   
+}
+footer .list-left a{
+    color: #5e5e5e;
+    margin-right: 15px;
+    
+}
+footer .list-right{
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+    font-size: 1.4rem;
+    justify-self: end;
+}
+footer .list-right a{
+    color: #5e5e5e;
+    margin: 0 15px;
 }
